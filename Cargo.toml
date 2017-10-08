@@ -1,0 +1,14 @@
+[package]
+name = "extract-domain"
+version = "0.1.0"
+authors = ["anekos <anekos@snca.net>"]
+repository = "https://github.com/anekos/extract-domain"
+keywords = []
+readme = "README.md"
+
+[[bin]]
+name = "extract-domain"
+doc = false
+
+[dependencies]
+publicsuffix = "1.3"
